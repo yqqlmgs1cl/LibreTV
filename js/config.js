@@ -26,7 +26,20 @@ const API_SITES = {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
         adult: true
+    },
+       1080zyku: {
+      api: 'https://api.1080zyku.com/inc/api_mac10.php',
+      name: 'TV-1080资源',
+      detail: 'https://api.1080zyku.com',
+     adult: true
+    },
+   155api: {
+      api: 'https://155api.com/api.php/provide/vod',
+      name: 'AV-155资源',
+      detail: 'https://155api.com',
+      adult: true
     }
+
 };
 
 // 定义合并方法
