@@ -25,19 +25,16 @@ const API_SITES = {
    1080zyku: {
       api: 'https://api.1080zyku.com/inc/api_mac10.php',
       name: 'TV-1080资源',
-      detail: 'https://api.1080zyku.com',
      adult: true
     },
    155api: {
       api: 'https://155api.com/api.php/provide/vod',
       name: 'AV-155资源',
-      detail: 'https://155api.com',
       adult: true
     },
     360zy: {
       api: 'https://360zy.com/api.php/provide/vod',
       name: 'TV-360资源',
-      detail: 'https://360zy.com',
      adult: true
     }
   };
