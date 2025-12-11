@@ -566,7 +566,7 @@ const API_SITES = {
       "api": "https://www.qiqidys.com/api.php/provide/vod/",
       "name": "七七影视",
       "adult": true
-    }
+    },
 };
 
 // 定义合并方法
