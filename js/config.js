@@ -22,7 +22,7 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-  "api_site": {
+ 
   "1080zyku": {
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "name": "TV-1080资源",
@@ -567,7 +567,7 @@ const API_SITES = {
       "name": "七七影视",
      "isAdult": true
     }
-  }
+
 };
 
 // 定义合并方法
