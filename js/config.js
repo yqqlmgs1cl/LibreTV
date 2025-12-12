@@ -34,6 +34,65 @@ const API_SITES = {
       detail: 'https://155api.com',
       adult: true
     },
+    zy360: {
+      api: 'https://360zy.com/api.php/provide/vod',
+      name: 'TV-360资源',
+      detail: 'https://360zy.com',
+     adult: true
+    },
+    ckzy: {
+      api: 'https://ckzy.me/api.php/provide/vod',
+      name: 'TV-CK资源',
+      detail: 'https://ckzy.me',
+     adult: true
+    },
+    ukuapi: {
+      api: 'https://api.ukuapi.com/api.php/provide/vod',
+      name: 'TV-U酷资源',
+      detail: 'https://api.ukuapi.com',
+     adult: true
+    },
+    ukuapi88: {
+      api: 'https://api.ukuapi88.com/api.php/provide/vod',
+      name: 'TV-U酷资源88',
+      detail: 'https://api.ukuapi88.com',
+     adult: true
+    },
+    ikunzy: {
+      api: 'https://ikunzyapi.com/api.php/provide/vod',
+      name: 'TV-ikun资源',
+      detail: 'https://ikunzyapi.com',
+     adult: true
+    },
+    wujinapi_cc: {
+      api: 'https://api.wujinapi.cc/api.php/provide/vod',
+      name: 'TV-wujinapi无尽',
+     adult: true
+    },
+    yayazy: {
+      api: 'https://cj.yayazy.net/api.php/provide/vod',
+      name: 'TV-丫丫点播',
+      detail: 'https://cj.yayazy.net',
+     adult: true
+    },
+    guangsuapi: {
+      api: 'https://api.guangsuapi.com/api.php/provide/vod',
+      name: 'TV-光速资源',
+      detail: 'https://api.guangsuapi.com',
+     adult: true
+    },
+    wolongzyw: {
+      api: 'https://collect.wolongzyw.com/api.php/provide/vod',
+      name: 'TV-卧龙点播',
+      detail: 'https://collect.wolongzyw.com',
+     adult: true
+    },
+    wolongzy_cc: {
+      api: 'https://collect.wolongzy.cc/api.php/provide/vod',
+      name: 'TV-卧龙资源',
+     adult: true
+    },
+
 };
 
 // 定义合并方法
