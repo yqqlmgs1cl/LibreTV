@@ -199,7 +199,7 @@ const API_SITES = {
       detail: 'https://api.apibdzy.com',
      adult: true
     },
-    1080zyku_json: {
+    zyku1080_json: {
       api: 'https://api.1080zyku.com/inc/apijson.php/',
       name: 'TV-神马云',
       detail: 'https://api.1080zyku.com',
