@@ -92,6 +92,50 @@ const API_SITES = {
       name: 'TV-卧龙资源',
      adult: true
     },
+    wolongzyw_com: {
+      api: 'https://wolongzyw.com/api.php/provide/vod',
+      name: 'TV-卧龙资源',
+      detail: 'https://wolongzyw.com',
+     adult: true
+    },
+   tyyszy: {
+      api: 'https://tyyszy.com/api.php/provide/vod',
+      name: 'TV-天涯资源',
+      detail: 'https://tyyszy.com',
+     adult: true
+    },
+    rycjapi: {
+      api: 'https://cj.rycjapi.com/api.php/provide/vod',
+      name: 'TV-如意资源',
+     adult: true
+    },
+    xiaomaomi: {
+      api: 'https://zy.xmm.hk/api.php/provide/vod',
+      name: 'TV-小猫咪资源',
+      detail: 'https://zy.xmm.hk',
+     adult: true
+    },
+    xinlangapi: {
+      api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
+      name: 'TV-新浪点播',
+      detail: 'https://api.xinlangapi.com',
+     adult: true
+    },
+    wujinapi_com: {
+      api: 'https://api.wujinapi.com/api.php/provide/vod',
+      name: 'TV-无尽资源',
+     adult: true
+    },
+    wujinapi_me: {
+      api: 'https://api.wujinapi.me/api.php/provide/vod',
+      name: 'TV-无尽资源',
+     adult: true
+    },
+    wujinapi_net: {
+      api: 'https://api.wujinapi.net/api.php/provide/vod',
+      name: 'TV-无尽资源',
+     adult: true
+    },
 
 };
 
