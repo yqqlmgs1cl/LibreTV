@@ -5,10 +5,10 @@ const SEARCH_HISTORY_KEY = 'videoSearchHistory';
 const MAX_HISTORY_ITEMS = 5;
 
 // 密码保护配置
-// 注意：PASSWORD 环境变量是必需的,所有部署都必须设置密码以确保安全
+// 注意：PASSWORD 环境变量是必需的，所有部署都必须设置密码以确保安全
 const PASSWORD_CONFIG = {
     localStorageKey: 'passwordVerified',  // 存储验证状态的键名
-    verificationTTL: 90 * 24 * 60 * 60 * 1000  // 验证有效期（90天,约3个月）
+    verificationTTL: 90 * 24 * 60 * 60 * 1000  // 验证有效期（90天，约3个月）
 };
 
 // 网站信息配置
@@ -22,12 +22,13 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-   1080zyku: {
-      api: 'https://api.1080zyku.com/inc/api_mac10.php',
-      name: 'TV-1080资源',
-     adult: true
+    testSource: {
+        api: 'https://www.example.com/api.php/provide/vod',
+        name: '空内容测试源',
+        adult: true
     }
-  };
+    //ARCHIVE https://telegra.ph/APIs-08-12
+};
 
 // 定义合并方法
 function extendAPISites(newSites) {
@@ -51,7 +52,7 @@ const AGGREGATED_SEARCH_CONFIG = {
 // 抽象API请求配置
 const API_CONFIG = {
     search: {
-        // 只拼接参数部分,不再包含 /api.php/provide/vod/
+        // 只拼接参数部分，不再包含 /api.php/provide/vod/
         path: '?ac=videolist&wd=',
         pagePath: '?ac=videolist&wd={query}&pg={page}',
         maxPages: 50, // 最大获取页数
@@ -91,11 +92,11 @@ const PLAYER_CONFIG = {
 
 // 增加错误信息本地化
 const ERROR_MESSAGES = {
-    NETWORK_ERROR: '网络连接错误,请检查网络设置',
-    TIMEOUT_ERROR: '请求超时,服务器响应时间过长',
-    API_ERROR: 'API接口返回错误,请尝试更换数据源',
-    PLAYER_ERROR: '播放器加载失败,请尝试其他视频源',
-    UNKNOWN_ERROR: '发生未知错误,请刷新页面重试'
+    NETWORK_ERROR: '网络连接错误，请检查网络设置',
+    TIMEOUT_ERROR: '请求超时，服务器响应时间过长',
+    API_ERROR: 'API接口返回错误，请尝试更换数据源',
+    PLAYER_ERROR: '播放器加载失败，请尝试其他视频源',
+    UNKNOWN_ERROR: '发生未知错误，请刷新页面重试'
 };
 
 // 添加进一步安全设置
@@ -103,7 +104,7 @@ const SECURITY_CONFIG = {
     enableXSSProtection: true,  // 是否启用XSS保护
     sanitizeUrls: true,         // 是否清理URL
     maxQueryLength: 100,        // 最大搜索长度
-    // allowedApiDomains 不再需要,因为所有请求都通过内部代理
+    // allowedApiDomains 不再需要，因为所有请求都通过内部代理
 };
 
 // 添加多个自定义API源的配置
