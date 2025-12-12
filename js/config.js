@@ -26,17 +26,7 @@ const API_SITES = {
       api: 'https://api.1080zyku.com/inc/api_mac10.php',
       name: 'TV-1080资源',
      adult: true
-    },
-   155api: {
-      api: 'https://155api.com/api.php/provide/vod',
-      name: 'AV-155资源',
-      adult: true
-    },
-    360zy: {
-      api: 'https://360zy.com/api.php/provide/vod',
-      name: 'TV-360资源',
-     adult: true
-    },
+    }
   };
 
 // 定义合并方法
