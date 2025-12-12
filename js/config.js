@@ -22,12 +22,6 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    },
-
    zyku1080: {
       api: 'https://api.1080zyku.com/inc/api_mac10.php',
       name: 'TV-1080资源',
@@ -73,7 +67,6 @@ const API_SITES = {
     wujinapi_cc: {
       api: 'https://api.wujinapi.cc/api.php/provide/vod',
       name: 'TV-wujinapi无尽',
-      detail: '',
      adult: true
     },
     yayazy: {
@@ -97,7 +90,6 @@ const API_SITES = {
     wolongzy_cc: {
       api: 'https://collect.wolongzy.cc/api.php/provide/vod',
       name: 'TV-卧龙资源',
-      detail: '',
      adult: true
     },
     wolongzyw_com: {
@@ -115,7 +107,6 @@ const API_SITES = {
     rycjapi: {
       api: 'https://cj.rycjapi.com/api.php/provide/vod',
       name: 'TV-如意资源',
-      detail: '',
      adult: true
     },
     xiaomaomi: {
@@ -133,19 +124,16 @@ const API_SITES = {
     wujinapi_com: {
       api: 'https://api.wujinapi.com/api.php/provide/vod',
       name: 'TV-无尽资源',
-      detail: '',
      adult: true
     },
     wujinapi_me: {
       api: 'https://api.wujinapi.me/api.php/provide/vod',
       name: 'TV-无尽资源',
-      detail: '',
      adult: true
     },
     wujinapi_net: {
       api: 'https://api.wujinapi.net/api.php/provide/vod',
       name: 'TV-无尽资源',
-      detail: '',
      adult: true
     },
     wwzy: {
@@ -163,7 +151,6 @@ const API_SITES = {
     bfzyapi: {
       api: 'https://bfzyapi.com/api.php/provide/vod',
       name: 'TV-暴风资源',
-      detail: '',
      adult: true
     },
     zuidazy: {
@@ -181,13 +168,11 @@ const API_SITES = {
     apiyhzy: {
       api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
       name: 'TV-樱花资源',
-      detail: '',
      adult: true
     },
     yparse: {
       api: 'https://api.yparse.com/api/json',
       name: 'TV-步步高资源',
-      detail: '',
      adult: true
     },
     niuniuzy: {
@@ -223,7 +208,6 @@ const API_SITES = {
     suoniapi: {
       api: 'https://suoniapi.com/api.php/provide/vod',
       name: 'TV-索尼资源',
-      detail: '',
      adult: true
     },
     hongniuzy2: {
@@ -265,13 +249,11 @@ const API_SITES = {
     subocaiji: {
       api: 'https://subocaiji.com/api.php/provide/vod',
       name: 'TV-速博资源',
-      detail: '',
      adult: true
     },
     lziapi: {
       api: 'https://cj.lziapi.com/api.php/provide/vod',
       name: 'TV-量子资源',
-      detail: '',
      adult: true
     },
     jinyingzy: {
@@ -343,7 +325,6 @@ const API_SITES = {
    lbapiby: {
       api: 'http://lbapiby.com/api.php/provide/vod',
       name: 'AV-AIvin',
-      detail: '',
       adult: true
     },
     jkunzyapi: {
@@ -361,7 +342,6 @@ const API_SITES = {
      lbapi9: {
       api: 'https://lbapi9.com/api.php/provide/vod',
       name: 'AV-乐播资源',
-      detail: '',
       adult: true
     },
     aosikazy: {
@@ -397,7 +377,6 @@ const API_SITES = {
     fhapi9: {
       api: 'http://fhapi9.com/api.php/provide/vod',
       name: 'AV-番号资源',
-      detail: '',
       adult: true
     },
     kxgav: {
