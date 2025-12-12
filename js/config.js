@@ -36,7 +36,7 @@ const API_SITES = {
       api: 'https://360zy.com/api.php/provide/vod',
       name: 'TV-360资源',
      adult: true
-    }
+    },
   };
 
 // 定义合并方法
