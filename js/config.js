@@ -136,6 +136,174 @@ const API_SITES = {
       name: 'TV-无尽资源',
      adult: true
     },
+    wwzy: {
+      api: 'https://wwzy.tv/api.php/provide/vod',
+      name: 'TV-旺旺短剧',
+      detail: 'https://wwzy.tv',
+     adult: true
+    },
+    wwzy_api: {
+      api: 'https://api.wwzy.tv/api.php/provide/vod',
+      name: 'TV-旺旺资源',
+      detail: 'https://api.wwzy.tv',
+     adult: true
+    },
+    bfzyapi: {
+      api: 'https://bfzyapi.com/api.php/provide/vod',
+      name: 'TV-暴风资源',
+     adult: true
+    },
+    zuidazy: {
+      api: 'http://zuidazy.me/api.php/provide/vod',
+      name: 'TV-最大点播',
+      detail: 'http://zuidazy.me',
+     adult: true
+    },
+    zuidapi: {
+      api: 'https://api.zuidapi.com/api.php/provide/vod',
+      name: 'TV-最大资源',
+      detail: 'https://api.zuidapi.com',
+     adult: true
+    },
+    apiyhzy: {
+      api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+      name: 'TV-樱花资源',
+     adult: true
+    },
+    yparse: {
+      api: 'https://api.yparse.com/api/json',
+      name: 'TV-步步高资源',
+     adult: true
+    },
+    niuniuzy: {
+      api: 'https://api.niuniuzy.me/api.php/provide/vod',
+      name: 'TV-牛牛点播',
+      detail: 'https://api.niuniuzy.me',
+     adult: true
+    },
+    dyttzyapi: {
+      api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+      name: 'TV-电影天堂资源',
+      detail: 'http://caiji.dyttzyapi.com',
+     adult: true
+    },
+   bwzyz: {
+      api: 'https://api.bwzyz.com/api.php/provide/vod',
+      name: 'AV-百万资源',
+      detail: 'https://api.bwzyz.com',
+      adult: true
+    },
+    apibdzy: {
+      api: 'https://api.apibdzy.com/api.php/provide/vod',
+      name: 'TV-百度云资源',
+      detail: 'https://api.apibdzy.com',
+     adult: true
+    },
+    1080zyku_json: {
+      api: 'https://api.1080zyku.com/inc/apijson.php/',
+      name: 'TV-神马云',
+      detail: 'https://api.1080zyku.com',
+     adult: true
+    },
+    suoniapi: {
+      api: 'https://suoniapi.com/api.php/provide/vod',
+      name: 'TV-索尼资源',
+     adult: true
+    },
+    hongniuzy2: {
+      api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+      name: 'TV-红牛资源',
+      detail: 'https://www.hongniuzy2.com',
+     adult: true
+    },
+    maotaizy: {
+      api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+      name: 'TV-茅台资源',
+      detail: 'https://caiji.maotaizy.cc',
+     adult: true
+    },
+    huyaapi: {
+      api: 'https://www.huyaapi.com/api.php/provide/vod',
+      name: 'TV-虎牙资源',
+      detail: 'https://www.huyaapi.com',
+     adult: true
+    },
+    dbzy_caiji: {
+      api: 'https://caiji.dbzy.tv/api.php/provide/vod',
+      name: 'TV-豆瓣资源',
+      detail: 'https://caiji.dbzy.tv',
+     adult: true
+    },
+    dbzy: {
+      api: 'https://dbzy.tv/api.php/provide/vod',
+      name: 'TV-豆瓣资源',
+      detail: 'https://dbzy.tv',
+     adult: true
+    },
+    hhzyapi: {
+      api: 'https://hhzyapi.com/api.php/provide/vod',
+      name: 'TV-豪华资源',
+      detail: 'https://hhzyapi.com',
+     adult: true
+    },
+    subocaiji: {
+      api: 'https://subocaiji.com/api.php/provide/vod',
+      name: 'TV-速博资源',
+     adult: true
+    },
+    lziapi: {
+      api: 'https://cj.lziapi.com/api.php/provide/vod',
+      name: 'TV-量子资源',
+     adult: true
+    },
+    jinyingzy: {
+      api: 'https://jinyingzy.com/api.php/provide/vod',
+      name: 'TV-金鹰点播',
+      detail: 'https://jinyingzy.com',
+     adult: true
+    },
+   jyzyapi: {
+      api: 'https://jyzyapi.com/api.php/provide/vod',
+      name: 'TV-金鹰资源',
+      detail: 'https://jyzyapi.com',
+     adult: true
+    },
+    sdzyapi: {
+      api: 'https://sdzyapi.com/api.php/provide/vod',
+      name: 'TV-闪电资源',
+      detail: 'https://sdzyapi.com',
+     adult: true
+    },
+    ffzyapi: {
+      api: 'https://cj.ffzyapi.com/api.php/provide/vod',
+      name: 'TV-非凡资源',
+      detail: 'https://cj.ffzyapi.com',
+     adult: true
+    },
+    p2100: {
+      api: 'https://p2100.net/api.php/provide/vod',
+      name: 'TV-飘零资源',
+      detail: 'https://p2100.net',
+     adult: true
+    },
+    mozhuazy: {
+      api: 'https://mozhuazy.com/api.php/provide/vod',
+      name: 'TV-魔爪资源',
+      detail: 'https://mozhuazy.com',
+     adult: true
+    },
+    moduapi: {
+      api: 'https://caiji.moduapi.cc/api.php/provide/vod',
+      name: 'TV-魔都动漫',
+      detail: 'https://caiji.moduapi.cc',
+     adult: true
+    },
+    mdzyapi: {
+      api: 'https://www.mdzyapi.com/api.php/provide/vod',
+      name: 'TV-魔都资源',
+      detail: 'https://www.mdzyapi.com',
+     adult: true
+    },
 
 };
 
