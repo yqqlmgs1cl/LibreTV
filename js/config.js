@@ -304,6 +304,253 @@ const API_SITES = {
       detail: 'https://www.mdzyapi.com',
      adult: true
     },
+    heimuer: {
+      api: 'https://json.heimuer.xyz/api.php/provide/vod',
+      name: 'TV-黑木耳',
+      detail: 'https://json.heimuer.xyz',
+     adult: true
+    },
+    heimuer02: {
+      api: 'https://json02.heimuer.xyz/api.php/provide/vod',
+      name: 'TV-黑木耳点播',
+      detail: 'https://json02.heimuer.xyz',
+     adult: true
+    },
+    md91: {
+      api: 'https://91md.me/api.php/provide/vod',
+      name: 'AV-91麻豆',
+      detail: 'https://91md.me',
+      adult: true
+    },
+   lbapiby: {
+      api: 'http://lbapiby.com/api.php/provide/vod',
+      name: 'AV-AIvin',
+      adult: true
+    },
+    jkunzyapi: {
+      api: 'https://jkunzyapi.com/api.php/provide/vod',
+      name: 'AV-JKUN资源',
+      detail: 'https://jkunzyapi.com',
+      adult: true
+    },
+    souavzy: {
+      api: 'https://api.souavzy.vip/api.php/provide/vod',
+      name: 'AV-souav资源',
+      detail: 'https://api.souavzy.vip',
+      adult: true
+    },
+     lbapi9: {
+      api: 'https://lbapi9.com/api.php/provide/vod',
+      name: 'AV-乐播资源',
+      adult: true
+    },
+    aosikazy: {
+      api: 'https://aosikazy.com/api.php/provide/vod',
+      name: 'AV-奥斯卡资源',
+      detail: 'https://aosikazy.com',
+      adult: true
+    },
+    naixxzy: {
+      api: 'https://Naixxzy.com/api.php/provide/vod',
+      name: 'AV-奶香香',
+      detail: 'https://Naixxzy.com',
+      adult: true
+    },
+   slapibf: {
+      api: 'https://slapibf.com/api.php/provide/vod',
+      name: 'AV-森林资源',
+      detail: 'https://slapibf.com',
+      adult: true
+    },
+    xrbsp: {
+      api: 'https://www.xrbsp.com/api/json.php',
+      name: 'AV-淫水机资源',
+      detail: 'https://www.xrbsp.com',
+      adult: true
+    },
+    apiyutu: {
+      api: 'https://apiyutu.com/api.php/provide/vod',
+      name: 'AV-玉兔资源',
+      detail: 'https://apiyutu.com',
+      adult: true
+    },
+    fhapi9: {
+      api: 'http://fhapi9.com/api.php/provide/vod',
+      name: 'AV-番号资源',
+      adult: true
+    },
+    kxgav: {
+      api: 'https://www.kxgav.com/api/json.php',
+      name: 'AV-白嫖资源',
+      detail: 'https://www.kxgav.com',
+      adult: true
+    },
+   jingpinx: {
+      api: 'https://www.jingpinx.com/api.php/provide/vod',
+      name: 'AV-精品资源',
+      detail: 'https://www.jingpinx.com',
+      adult: true
+    },
+   msnii: {
+      api: 'https://www.msnii.com/api/json.php',
+      name: 'AV-美少女资源',
+      detail: 'https://www.msnii.com',
+      adult: true
+    },
+    apilsbzy1: {
+      api: 'https://apilsbzy1.com/api.php/provide/vod',
+      name: 'AV-老色逼资源',
+      detail: 'https://apilsbzy1.com',
+      adult: true
+    },
+    sexnguon: {
+      api: 'https://api.sexnguon.com/api.php/provide/vod',
+      name: 'AV-色嗨国',
+      detail: 'https://api.sexnguon.com',
+      adult: true
+    },
+    maozyapi: {
+      api: 'https://api.maozyapi.com/inc/apijson_vod.php',
+      name: 'AV-色猫资源',
+      detail: 'https://api.maozyapi.com',
+      adult: true
+    },
+    apilj: {
+      api: 'https://apilj.com/api.php/provide/vod',
+      name: 'AV-辣椒资源',
+      detail: 'https://apilj.com',
+      adult: true
+    },
+    gdlsp: {
+      api: 'https://www.gdlsp.com/api/json.php',
+      name: 'AV-香奶儿资源',
+      detail: 'https://www.gdlsp.com',
+      adult: true
+    },
+    shayuapi: {
+      api: 'https://shayuapi.com/api.php/provide/vod',
+      name: 'AV-鲨鱼资源',
+      detail: 'https://shayuapi.com',
+      adult: true
+    },
+    pgxdy: {
+      api: 'https://www.pgxdy.com/api/json.php',
+      name: 'AV-黄AV资源',
+      detail: 'https://www.pgxdy.com',
+      adult: true
+    },
+   ffzynew: {
+      api: 'https://api.ffzyapi.com/api.php/provide/vod',
+      name: '非凡影视new',
+      detail: 'http://ffzy5.tv',
+     adult: true
+    },
+    jszyapi: {
+      api: 'https://jszyapi.com/api.php/provide/vod',
+      name: '极速资源',
+      detail: 'https://jszyapi.com',
+     adult: true
+    },
+    gayapi: {
+      api: 'https://gayapi.com/api.php/provide/vod',
+      name: '快播资源网站',
+     adult: true
+    },
+    xingba111: {
+      api: 'https://xingba111.com/api.php/provide/vod',
+      name: '性吧资源',
+      adult: true
+    },
+    aiduanju: {
+      api: 'https://www.aiduanju.cc/',
+      name: '爱短剧.cc',
+     adult: true
+    },
+    huawei8: {
+      api: 'https://huawei8.live/api.php/provide/vod',
+      name: '华为吧资源',
+     adult: true
+    },
+    taopianapi: {
+      api: 'https://taopianapi.com/cjapi/sda/vod',
+      name: '淘片资源',
+     adult: true
+    },
+    hongniuzy3: {
+      api: 'https://www.hongniuzy3.com/api.php/provide/vod',
+      name: '红牛资源',
+     adult: true
+    },
+    xsd_sdzyapi: {
+      api: 'https://xsd.sdzyapi.com/api.php/provide/vod',
+      name: '索尼-闪电资源',
+     adult: true
+    },
+   jyzyapi_provide: {
+      api: 'https://jyzyapi.com/provide/vod',
+      name: '金鹰资源采集网',
+     adult: true
+    },
+    fczy888: {
+      api: 'https://api.fczy888.me/api.php/provide/vod',
+      name: '蜂巢片库',
+     adult: true
+    },
+    jmzy: {
+      api: 'https://api.jmzy.com/api.php/provide/vod',
+      name: '金马资源网',
+     adult: true
+    },
+    dadiapi: {
+      api: 'https://dadiapi.com/api.php/provide/vod',
+      name: '大地资源网络',
+     adult: true
+    },
+    hsckzy888: {
+      api: 'https://hsckzy888.com/api.php/provide/vod',
+      name: '黄色资源啊啊',
+      adult: true
+    },
+    xiaojizy: {
+      api: 'https://api.xiaojizy.live/provide/vod',
+      name: '小鸡资源',
+     adult: true
+    },
+    kuaichezy: {
+      api: 'https://caiji.kuaichezy.org/api.php/provide',
+      name: '快车资源阿',
+     adult: true
+    },
+    xinlangapi_provide: {
+      api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
+      name: '新浪资源阿',
+     adult: true
+    },
+    apilj_provide: {
+      api: 'https://apilj.com/api.php/provide',
+      name: '辣椒资源黄黄',
+     adult: true
+    },
+    yzzy_api: {
+      api: 'https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod',
+      name: '优质资源库1080zyk6.com高清',
+     adult: true
+    },
+    iqiyizyapi: {
+      api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+      name: 'iqiyi资源',
+     adult: true
+    },
+    xxibaozyw: {
+      api: 'https://www.xxibaozyw.com/api.php/provide/vod',
+      name: '细胞采集黄色',
+      adult: true
+    },
+    qiqidys: {
+      api: 'https://www.qiqidys.com/api.php/provide/vod/',
+      name: '七七影视',
+     adult: true
+    }
 
 };
 
